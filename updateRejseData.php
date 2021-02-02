@@ -4,8 +4,8 @@ header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, X-Requested-With");
 include "config.php";
 
-$rname = $_POST['rid'];
-$rid = $_POST['rname'];
+$rname = $_POST['rname'];
+$rid = $_POST['rid'];
 
 
 //$query1=mysqli_real_escape_string($connect,"UPDATE rejse SET rname='".$rname."' WHERE rid=".$rid);
